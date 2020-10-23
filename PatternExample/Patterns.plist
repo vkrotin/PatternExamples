@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>behavioral</string>
+		<key>description</key>
+		<string>поведеньчиские (behavioral)</string>
+		<key>parentId</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>structural</string>
+		<key>description</key>
+		<string>структурные (structural)</string>
+		<key>parentId</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>generating</string>
+		<key>description</key>
+		<string>порождающие (generating)</string>
+		<key>parentId</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Избегает связывания отправителя запроса и его получателя, давая возможность обработать запрос более чем одному объекту. Связывает объекты-получатели и передаёт запрос по цепочке пока объект не обработает его.</string>
+		<key>id</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>chain of responsibility</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Инкапсулирует запрос в виде объекта, позволяя передавать их клиентам в качестве параметров, ставить в очередь, логировать, а также поддерживает отмену операций.</string>
+		<key>id</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>command</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Получая формальный язык, определяет представление его грамматики и интерпретатор, использующий это представление для обработки выражений языка.</string>
+		<key>id</key>
+		<integer>6</integer>
+		<key>name</key>
+		<string>interpreter</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Предоставляет способ последовательного доступа к элементам множества, независимо от его внутреннего устройства.</string>
+		<key>id</key>
+		<integer>7</integer>
+		<key>name</key>
+		<string>iterator</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Определяет объект, инкапсулирующий способ взаимодействия объектов. Обеспечивает слабую связь, избавляя объекты от необходимости прямо ссылать друг на друга и даёт возможность независимо изменять их взаимодействие.</string>
+		<key>id</key>
+		<integer>8</integer>
+		<key>name</key>
+		<string>mediator</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Не нарушая инкапсуляцию, определяет и сохраняет внутреннее состояние объекта и позволяет позже восстановить объект в этом состоянии.</string>
+		<key>id</key>
+		<integer>9</integer>
+		<key>name</key>
+		<string>memento</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Определяет зависимость «один-ко-многим» между объектами так, что когда один объект меняет своё состояние, все зависимые объекты оповещаются.</string>
+		<key>id</key>
+		<integer>10</integer>
+		<key>name</key>
+		<string>observer</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Позволяет объекту изменять своё поведение в зависимости от внутреннего состояния.</string>
+		<key>id</key>
+		<integer>11</integer>
+		<key>name</key>
+		<string>state</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Определяет группу алгоритмов, инкапсулирует их и делает взаимозаменяемыми. Позволяет изменять алгоритм независимо от клиентов, его использующих.</string>
+		<key>id</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>strategy</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Определяет алгоритм, некоторые этапы которого делегируются подклассам. Позволяет подклассам переопределить эти этапы, не меняя структуру алгоритма.</string>
+		<key>id</key>
+		<integer>13</integer>
+		<key>name</key>
+		<string>template method</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Представляет собой операцию, которая будет выполнена над объектами группы классов. Даёт возможность определить новую операцию без изменения кода классов, над которыми эта операция проводится.</string>
+		<key>id</key>
+		<integer>14</integer>
+		<key>name</key>
+		<string>visitor</string>
+		<key>parentId</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Конвертирует интерфейс класса в другой интерфейс, ожидаемый клиентом. Позволяет классам с разными интерфейсами работать вместе.</string>
+		<key>id</key>
+		<integer>15</integer>
+		<key>name</key>
+		<string>adapter</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Разделяет абстракцию и реализацию так, чтобы они могли изменяться независимо.</string>
+		<key>id</key>
+		<integer>16</integer>
+		<key>name</key>
+		<string>bridge</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Компонует объекты в древовидную структуру, представляя их в виде иерархии. Позволяет клиенту обращаться как к отдельному объекту, так и к целому поддереву.</string>
+		<key>id</key>
+		<integer>17</integer>
+		<key>name</key>
+		<string>composite</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Динамически предоставляет объекту дополнительные возможности. Представляет собой гибкую альтернативу наследованию для расширения функциональности.</string>
+		<key>id</key>
+		<integer>18</integer>
+		<key>name</key>
+		<string>decorator</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Предоставляет единый интерфейс к группе интерфейсов подсистемы. Определяет высокоуровневый интерфейс, делая подсистему проще для использования.</string>
+		<key>id</key>
+		<integer>19</integer>
+		<key>name</key>
+		<string>facade</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Благодаря совместному использованию, поддерживает эффективную работу с большим количеством объектов.</string>
+		<key>id</key>
+		<integer>20</integer>
+		<key>name</key>
+		<string>flyweight</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Предоставляет замену другого объекта для контроля доступа к нему.</string>
+		<key>id</key>
+		<integer>21</integer>
+		<key>name</key>
+		<string>proxy</string>
+		<key>parentId</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Предоставляет интерфейс для создания групп связанных или зависимых объектов, не указывая их конкретный класс.</string>
+		<key>id</key>
+		<integer>22</integer>
+		<key>name</key>
+		<string>abstract factory</string>
+		<key>parentId</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Разделяет создание сложного объекта и инициализацию его состояния так, что одинаковый процесс построения может создать объекты с разным состоянием.</string>
+		<key>id</key>
+		<integer>23</integer>
+		<key>name</key>
+		<string>builder</string>
+		<key>parentId</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Определяет интерфейс для создания объекта, но позволяет подклассам решать, какой класс инстанцировать. Позволяет делегировать создание объекта подклассам.</string>
+		<key>id</key>
+		<integer>24</integer>
+		<key>name</key>
+		<string>factory method</string>
+		<key>parentId</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Определяет несколько видов объектов, чтобы при создании использовать объект-прототип и создаёт новые объекты, копируя прототип.</string>
+		<key>id</key>
+		<integer>25</integer>
+		<key>name</key>
+		<string>prototype</string>
+		<key>parentId</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Гарантирует, что класс имеет только один экземпляр и предоставляет глобальную точку доступа к нему.</string>
+		<key>id</key>
+		<integer>26</integer>
+		<key>name</key>
+		<string>singleton</string>
+		<key>parentId</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>
