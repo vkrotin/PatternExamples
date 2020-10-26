@@ -9,15 +9,15 @@
 // behavioral patterns - поведеньчиские паттерны
 //
 //1. Цепочка обязанностей (chain of responsibility) V
-//2. Команда (command)
+//2. Команда (command)                       V
 //3. Интерпретатор (interpreter)             V
 //4. Итератор (iterator)
 //5. Посредник (mediator)                    V
-//6. Хранитель (memento)
+//6. Хранитель (memento)                     V
 //7. Наблюдатель (observer)                  V
 //8. Состояние (state)
-//9. Стратегия (strategy)
-//10. Шаблонный метод (template method)      I
+//9. Стратегия (strategy)                    V
+//10. Шаблонный метод (template method)      V
 //11. Посетитель (visitor)                   V
 //
 // structural patterns - структурные паттерны
@@ -27,8 +27,8 @@
 //3. Компоновщик (composite)                 V
 //4. Декоратор (decorator)                   V
 //5. Фасад (facade)                          V
-//6. Приспособленец (flyweight)
-//7. Прокси (proxy)
+//6. Приспособленец (flyweight)              V
+//7. Прокси (proxy)                          V
 //
 // generating patterns - порождающие паттерны
 //

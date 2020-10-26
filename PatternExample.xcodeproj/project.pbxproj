@@ -55,6 +55,17 @@
 		7546C630254052D900CAD1FE /* TestMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546C62F254052D900CAD1FE /* TestMediator.swift */; };
 		7546C6332540567C00CAD1FE /* StandartOserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546C6322540567C00CAD1FE /* StandartOserver.swift */; };
 		7546C63525405A2900CAD1FE /* SomeSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546C63425405A2900CAD1FE /* SomeSubscriber.swift */; };
+		756386072546CC37000ECAC6 /* PhoneTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386062546CC37000ECAC6 /* PhoneTemplate.swift */; };
+		7563860A2546CEA1000ECAC6 /* TestTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386092546CEA1000ECAC6 /* TestTemplate.swift */; };
+		7563860E2546CFB9000ECAC6 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563860D2546CFB9000ECAC6 /* Strategy.swift */; };
+		756386112546D20B000ECAC6 /* TestStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386102546D20B000ECAC6 /* TestStrategy.swift */; };
+		756386152546D4A7000ECAC6 /* Comand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386142546D4A7000ECAC6 /* Comand.swift */; };
+		756386192546D97B000ECAC6 /* TestCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386182546D97B000ECAC6 /* TestCommand.swift */; };
+		7563861D2546DB4C000ECAC6 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563861C2546DB4C000ECAC6 /* Flyweight.swift */; };
+		756386202546E044000ECAC6 /* TestFlyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563861F2546E044000ECAC6 /* TestFlyweight.swift */; };
+		756386242546E415000ECAC6 /* ProxyMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386232546E415000ECAC6 /* ProxyMethods.swift */; };
+		756386282546E66A000ECAC6 /* TestProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756386272546E66A000ECAC6 /* TestProxy.swift */; };
+		7563862C2546E7EC000ECAC6 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563862B2546E7EC000ECAC6 /* Memento.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +119,17 @@
 		7546C62F254052D900CAD1FE /* TestMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMediator.swift; sourceTree = "<group>"; };
 		7546C6322540567C00CAD1FE /* StandartOserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartOserver.swift; sourceTree = "<group>"; };
 		7546C63425405A2900CAD1FE /* SomeSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeSubscriber.swift; sourceTree = "<group>"; };
+		756386062546CC37000ECAC6 /* PhoneTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTemplate.swift; sourceTree = "<group>"; };
+		756386092546CEA1000ECAC6 /* TestTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTemplate.swift; sourceTree = "<group>"; };
+		7563860D2546CFB9000ECAC6 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		756386102546D20B000ECAC6 /* TestStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStrategy.swift; sourceTree = "<group>"; };
+		756386142546D4A7000ECAC6 /* Comand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comand.swift; sourceTree = "<group>"; };
+		756386182546D97B000ECAC6 /* TestCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCommand.swift; sourceTree = "<group>"; };
+		7563861C2546DB4C000ECAC6 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		7563861F2546E044000ECAC6 /* TestFlyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFlyweight.swift; sourceTree = "<group>"; };
+		756386232546E415000ECAC6 /* ProxyMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyMethods.swift; sourceTree = "<group>"; };
+		756386272546E66A000ECAC6 /* TestProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProxy.swift; sourceTree = "<group>"; };
+		7563862B2546E7EC000ECAC6 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,13 +177,13 @@
 			path = Decorator;
 			sourceTree = "<group>";
 		};
-		750DF0DE25419F23001D8A2A /* chain of responsibility */ = {
+		750DF0DE25419F23001D8A2A /* Chain of Responsibility */ = {
 			isa = PBXGroup;
 			children = (
 				750DF0DF25419F3E001D8A2A /* CoR.swift */,
 				750DF0E32541A1DC001D8A2A /* CorTest.swift */,
 			);
-			path = "chain of responsibility";
+			path = "Chain of Responsibility";
 			sourceTree = "<group>";
 		};
 		7544007125414B1D002D2962 /* DelegateObserver */ = {
@@ -288,6 +310,8 @@
 		7546C60A2540389600CAD1FE /* structural */ = {
 			isa = PBXGroup;
 			children = (
+				756386222546E38B000ECAC6 /* Proxy */,
+				7563861B2546DADE000ECAC6 /* Flyweight */,
 				750DF0D225419B60001D8A2A /* Decorator */,
 				750DF0BA25415113001D8A2A /* Composite */,
 				7546C61D25404B0B00CAD1FE /* Facade */,
@@ -357,7 +381,11 @@
 		7546C62925404EF800CAD1FE /* behavioral */ = {
 			isa = PBXGroup;
 			children = (
-				750DF0DE25419F23001D8A2A /* chain of responsibility */,
+				7563862A2546E796000ECAC6 /* Memento */,
+				756386132546D496000ECAC6 /* Comand */,
+				7563860C2546CF30000ECAC6 /* Strategy */,
+				756386042546CBC9000ECAC6 /* TemplateMethods */,
+				750DF0DE25419F23001D8A2A /* Chain of Responsibility */,
 				750DF0CA25419356001D8A2A /* Visitor */,
 				750DF0BF25415EC1001D8A2A /* Iterator */,
 				7546C6312540556C00CAD1FE /* observer */,
@@ -383,6 +411,59 @@
 				7544007125414B1D002D2962 /* DelegateObserver */,
 			);
 			path = observer;
+			sourceTree = "<group>";
+		};
+		756386042546CBC9000ECAC6 /* TemplateMethods */ = {
+			isa = PBXGroup;
+			children = (
+				756386062546CC37000ECAC6 /* PhoneTemplate.swift */,
+				756386092546CEA1000ECAC6 /* TestTemplate.swift */,
+			);
+			path = TemplateMethods;
+			sourceTree = "<group>";
+		};
+		7563860C2546CF30000ECAC6 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				7563860D2546CFB9000ECAC6 /* Strategy.swift */,
+				756386102546D20B000ECAC6 /* TestStrategy.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		756386132546D496000ECAC6 /* Comand */ = {
+			isa = PBXGroup;
+			children = (
+				756386142546D4A7000ECAC6 /* Comand.swift */,
+				756386182546D97B000ECAC6 /* TestCommand.swift */,
+			);
+			path = Comand;
+			sourceTree = "<group>";
+		};
+		7563861B2546DADE000ECAC6 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				7563861C2546DB4C000ECAC6 /* Flyweight.swift */,
+				7563861F2546E044000ECAC6 /* TestFlyweight.swift */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		756386222546E38B000ECAC6 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				756386232546E415000ECAC6 /* ProxyMethods.swift */,
+				756386272546E66A000ECAC6 /* TestProxy.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		7563862A2546E796000ECAC6 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				7563862B2546E7EC000ECAC6 /* Memento.swift */,
+			);
+			path = Memento;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,34 +538,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756386112546D20B000ECAC6 /* TestStrategy.swift in Sources */,
 				7546C5FF25402DC200CAD1FE /* AndroidPhone.swift in Sources */,
 				7546C608254037F000CAD1FE /* Singletone.swift in Sources */,
 				7546C630254052D900CAD1FE /* TestMediator.swift in Sources */,
 				7546C61F25404B7400CAD1FE /* PathFinder.swift in Sources */,
+				756386202546E044000ECAC6 /* TestFlyweight.swift in Sources */,
 				7546C62C2540501700CAD1FE /* SmartHousePart.swift in Sources */,
 				750DF0C825416839001D8A2A /* Enumerator.swift in Sources */,
 				7546C5F425401EBF00CAD1FE /* Model.swift in Sources */,
 				7546C6052540366E00CAD1FE /* BuilderExample.swift in Sources */,
+				756386242546E415000ECAC6 /* ProxyMethods.swift in Sources */,
 				750DF0E025419F3E001D8A2A /* CoR.swift in Sources */,
 				750DF0CC254193CA001D8A2A /* Visitor.swift in Sources */,
 				7546C60125402F2D00CAD1FE /* PhoneBuilder.swift in Sources */,
 				7546C5F62540205300CAD1FE /* ModelType.swift in Sources */,
 				7546C62325404CD500CAD1FE /* TicketPrinitingSystem.swift in Sources */,
 				7546C5F82540274100CAD1FE /* Factory.swift in Sources */,
+				7563862C2546E7EC000ECAC6 /* Memento.swift in Sources */,
+				756386152546D4A7000ECAC6 /* Comand.swift in Sources */,
 				750DF0C125415FE8001D8A2A /* Iterator.swift in Sources */,
 				7546C5DC253D689300CAD1FE /* ModelPatterns.swift in Sources */,
 				750DF0E42541A1DC001D8A2A /* CorTest.swift in Sources */,
 				7546C5F02540127800CAD1FE /* ProductGenerator.swift in Sources */,
 				750DF0BC2541525C001D8A2A /* Composite.swift in Sources */,
 				7546C61A2540483900CAD1FE /* BaseHeadphones.swift in Sources */,
+				756386282546E66A000ECAC6 /* TestProxy.swift in Sources */,
 				7546C60F25403B5200CAD1FE /* AdapterTest.swift in Sources */,
 				7546C5E6253FFB3600CAD1FE /* NSDictionaryMod.swift in Sources */,
 				7546C5EE25400FD200CAD1FE /* Product.swift in Sources */,
+				7563861D2546DB4C000ECAC6 /* Flyweight.swift in Sources */,
 				7546C62625404D7800CAD1FE /* TravellSystemFacade.swift in Sources */,
 				7546C61325403D3000CAD1FE /* Charger.swift in Sources */,
 				7546C62E2540502600CAD1FE /* CentrallProcessor.swift in Sources */,
 				7546C5C8253D682C00CAD1FE /* AppDelegate.swift in Sources */,
+				756386072546CC37000ECAC6 /* PhoneTemplate.swift in Sources */,
 				7546C5FA2540292000CAD1FE /* FactoryExample.swift in Sources */,
+				7563860A2546CEA1000ECAC6 /* TestTemplate.swift in Sources */,
 				7546C61C25404A3A00CAD1FE /* TestBridge.swift in Sources */,
 				7546C62125404C3800CAD1FE /* TravellEngine.swift in Sources */,
 				7544007025414732002D2962 /* TestObserver.swift in Sources */,
@@ -493,10 +583,12 @@
 				750DF0D0254199CA001D8A2A /* TestVisitor.swift in Sources */,
 				7546C6332540567C00CAD1FE /* StandartOserver.swift in Sources */,
 				7544007425414B66002D2962 /* KVOSubject.swift in Sources */,
+				7563860E2546CFB9000ECAC6 /* Strategy.swift in Sources */,
 				7546C61525403FEA00CAD1FE /* USANotebookEuropeanAdapter.swift in Sources */,
 				7546C6172540425600CAD1FE /* TestNoute.swift in Sources */,
 				7546C603254034DC00CAD1FE /* FactorySalesMan.swift in Sources */,
 				7546C63525405A2900CAD1FE /* SomeSubscriber.swift in Sources */,
+				756386192546D97B000ECAC6 /* TestCommand.swift in Sources */,
 				7546C5E0253D9E1C00CAD1FE /* TableViewController.swift in Sources */,
 				7546C60D254038E300CAD1FE /* Bird.swift in Sources */,
 				7546C5CA253D682C00CAD1FE /* SceneDelegate.swift in Sources */,
