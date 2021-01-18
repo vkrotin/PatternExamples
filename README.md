@@ -18,8 +18,9 @@ Demonstrate patterns in SWIFT on simple code
 
 ---------
 ### structural patterns - структурные паттерны
+
 Определяют различные сложные структуры, которые изменяют интерфейс уже существующих объектов или его реализацию, позволяя облегчить разработку и оптимизировать программу.
----------
+
 
 - [Адаптер (adapter)](#adapter)                       
 - Мост (bridge)                           
@@ -80,10 +81,7 @@ static Singleton *sharedSingleton_ = nil;
 }
 @end
 ```
-However this is wrong on several levels. Firstly, this isn't thread safe, so what happens if multiple threads all try to access this at the same time? There is no reason 1 thread couldn't be in the middle of allocating the object while the other one is trying to access the object. This is actually what Apple shows in its documentation.
-If you must use singletons, use `dispatch_once()`
-dispatch_once() solves the problem of safely being able to create a singleton in that (1) it guarantees that the code in the block will only be called once for the lifetime of the application (2) its thread safe as I noted in a previous article and (3) its faster than other methods like using `@synchronize()`,etc...
-"If called simultaneously from multiple threads, this function waits synchronously until the block has completed." So you should be writing it like this...
+Однако это неправильно на нескольких уровнях. Во-первых, это не потокобезопасно, так что же произойдет, если несколько потоков попытаются получить к нему доступ одновременно? Нет никакой причины, по которой 1 поток не мог бы быть в середине выделения объекта, в то время как другой пытается получить доступ к объекту. Это на самом деле то, что Apple показывает в своей документации. Если вы должны использовать синглтоны, используйте dispatch_once() dispatch_once() решает проблему безопасной возможности создания синглтона в том,что (1) он гарантирует, что код в блоке будет вызываться только один раз в течение всего срока службы приложения (2) его потокобезопасность, как я уже отмечал в предыдущей статье, и (3) его быстрее, чем другие методы, такие как использование @synchronize () и т. д... "При одновременном вызове из нескольких потоков эта функция синхронно ожидает завершения блока." Так что вы должны писать это так...
 
 _Thread safe_
 ```objectivec
@@ -97,11 +95,11 @@ _Thread safe_
 }
 ```
 
-__Criticism:__
+__Критика:__
 
-1. It violates the single responsibility principle because of its quality of controlling its own creation and lifecycle.
-2. It introduces global state to your application. I would say global state is very bad because any code can change its value. So at the time of debugging it's really hard to find which portion of the code has made the current stage of global variable.
-3. Singleton is generally a bad idea if you are doing unit testing, and it's generally a bad idea not to perform unit testing.
+1. Он нарушает принцип единой ответственности из-за своего качества управления собственным созданием и жизненным циклом.
+2. Он представляет глобальное состояние приложения. Я бы сказал, что глобальное состояние очень плохо, потому что любой код может изменить свое значение. Поэтому во время отладки очень трудно найти, какая часть кода сделала текущую стадию глобальной переменной.
+3. Синглтон, как правило, плохая идея, если вы проводите модульное тестирование, и, как правило, плохая идея не выполнять модульное тестирование.
 
 <a name="adapter"></a>
 ### Adapter
