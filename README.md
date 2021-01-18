@@ -147,7 +147,7 @@ __Categories or extension__
 Responder (ответчик) – объект, который может реагировать на события и обрабатывать их.
 `responderObject : UIResponder; // or NSResponder in MacOS`
 
-<img src="https://github.com/sashakid/ios-guide/blob/master/Images/responder_chain.png">
+<img src="https://github.com/vkrotin/PatternExamples/blob/master/Images/chain_resp.png?raw=true">
 
 Цепочка ответственности позволяет вам передавать объекте по цепочке объектов-обработчиков, пока не будет найден необходимый объект обработчик.
 ```
