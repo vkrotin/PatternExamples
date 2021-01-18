@@ -28,8 +28,7 @@ Demonstrate patterns in SWIFT on simple code
 
 ### generating patterns - порождающие паттерны
 ---------
-- Абстрактная фабрика (abstract factory)
-- [Abstract factory](#abstract-factory)
+- [Абстрактная фабрика (abstract factory)](#abstract-factory)
 - Строитель (builder)                     
 - Фабричный метод (factory method)        
 - Прототип (prototype)
