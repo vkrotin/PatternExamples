@@ -40,6 +40,8 @@ Demonstrate patterns in SWIFT on simple code
 - [Прототип (prototype)](#prototype)
 - [Одиночка (singleton)](#singleton)         
 
+---------
+<img src="https://github.com/vkrotin/PatternExamples/blob/master/Images/desk_image.png?raw=true">
 
 <a name="abstract-factory"></a>
 ### Абстрактная фабрика (abstract factory)
